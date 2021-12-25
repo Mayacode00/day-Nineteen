@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #ffffff;
+}
+.header {
+  font-weight: 300;
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.question-tag {
+  display: inline-flex;
+  position: absolute;
+  right: 2rem;
+  cursor: pointer;
+}
+.fa-camera {
+  margin-right: 0.5rem;
+}
+.quote-container {
+  text-align: center;
+  margin: 150px 90px 0 90px;
+  background: rgba(10, 10, 10, 0.274);
+  backdrop-filter: blur(4px);
+  border-radius: 1em;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 60px;
+}
+.author-span {
+  display: flex;
+  font-style: italic;
+  font-weight: 100;
+  justify-content: flex-end;
+}
+.quotes {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  border-top: 1px solid rgba(255, 255, 255, 0.502);
+  margin: 0 70px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.icon {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  margin: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+}
+.icon:hover {
+  background: #ffffff;
+  transition: 0.5s ease-in;
+  color: #000000;
+}
+.question-tag:hover {
+  color: #c2c2c2;
+  transition: 0.5s ease-in;
+}
+@media screen and (max-width: 1440px) {
+  body {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1024px){
+    .quote-container{
+        margin: 300px 90px 0 90px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        font-size: 10px;
+    }
+    .header{
+        font-size: 2rem;
+    }
+    .quote-container{
+        margin: 150px 15px;
+    }
+    .question-tag{
+        top: 5rem;
+    }
+}
