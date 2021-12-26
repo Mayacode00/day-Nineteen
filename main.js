@@ -1,6 +1,6 @@
-var header;
-var mainQuote;
-var author;
+let header;
+let mainQuote;
+let author;
 const soundBtn = document.querySelector(".fa-volume-up");
 const copyBtn = document.querySelector(".fa-copy");
 const shareBtn = document.querySelector(".fa-twitter");
@@ -57,7 +57,7 @@ soundBtn.addEventListener("click", () => {
   speechSynthesis.speak(utterance);
 });
 copyBtn.addEventListener("click", () => {
-  navigator.clipboard.writeText(mainQuote);
+  navigator.clipboard.writeText(`${mainQuote} by ${author}`);
 });
 shareBtn.addEventListener("click", () => {
   let shareUrl = "https://twitter.com/intent/tweet?url";
