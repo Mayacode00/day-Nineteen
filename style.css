@@ -70,12 +70,12 @@ ul {
 }
 .icon:hover {
   background: #ffffff;
-  transition: 0.5s ease-in;
+  transition: 0.6s ease-in;
   color: #000000;
 }
 .question-tag:hover {
   color: #c2c2c2;
-  transition: 0.5s ease-in;
+  transition: 0.6s ease-in;
 }
 @media screen and (max-width: 1440px) {
   body {
@@ -90,6 +90,7 @@ ul {
 @media screen and (max-width: 500px) {
   body {
     font-size: 10px;
+    overflow-y: hidden;
   }
   .header {
     font-size: 2rem;
