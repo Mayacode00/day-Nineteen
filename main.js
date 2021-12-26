@@ -53,7 +53,7 @@ document.querySelector(".main-quote").innerHTML = mainQuote;
 document.querySelector(".author").innerHTML = author;
 
 soundBtn.addEventListener("click", () => {
-  let utterance = new SpeechSynthesisUtterance(mainQuote);
+  let utterance = new SpeechSynthesisUtterance(`${mainQuote} by ${author}`);
   speechSynthesis.speak(utterance);
 });
 copyBtn.addEventListener("click", () => {
