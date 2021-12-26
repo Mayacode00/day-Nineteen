@@ -25,17 +25,17 @@ switch (new Date().getDay()) {
     mainQuote =
       "“You are always stronger and more resourceful than you give yourself credit for.”";
     author = "Rob Moore";
-  case 3:
+  case 4:
     header = "Quote for Thursday";
     mainQuote =
       "“The true meaning of life is to plant trees under whose shade you do not expect to sit.”";
     author = "Nelson Henderson";
-  case 3:
+  case 5:
     header = "Quote for Friday";
     mainQuote =
       "“I have not failed. I’ve just found 10,000 ways that won’t work.”";
     author = "Thomas A. Edison";
-  case 3:
+  case 6:
     header = "Quote for Saturday";
     mainQuote = "“Without the weekend, where would the week be?”";
     author = "Anthony T. Hincks";
