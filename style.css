@@ -25,6 +25,10 @@ body {
   right: 2rem;
   cursor: pointer;
 }
+.note {
+  text-decoration: none;
+  color: #ffffff;
+}
 .fa-camera {
   margin-right: 0.5rem;
 }
@@ -78,22 +82,22 @@ ul {
     height: 100vh;
   }
 }
-@media screen and (max-width: 1024px){
-    .quote-container{
-        margin: 300px 90px 0 90px;
-    }
+@media screen and (max-width: 1024px) {
+  .quote-container {
+    margin: 300px 90px 0 90px;
+  }
 }
-@media screen and (max-width: 500px){
-    body{
-        font-size: 10px;
-    }
-    .header{
-        font-size: 2rem;
-    }
-    .quote-container{
-        margin: 150px 15px;
-    }
-    .question-tag{
-        top: 5rem;
-    }
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .quote-container {
+    margin: 150px 15px;
+  }
+  .question-tag {
+    top: 5rem;
+  }
 }
